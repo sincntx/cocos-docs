@@ -3,6 +3,7 @@
 ## 特性和安装
 - [特性简介](../../manual/code-ide/zh.md)
 - [安装指南](../../manual/code-ide/install-zh.md)
+- [更新历史](../../manual/code-ide/changelog/zh.md)
 
 ## Lua开发者入门
 
@@ -23,6 +24,11 @@
 - [在iOS设备上运行游戏　](../../manual/code-ide/getting-started-for-js/4-running/on-ios-zh.md)
 - [生成安卓安装包　](../../manual/code-ide/getting-started-for-js/5-packaging/to-apk-zh.md)
 - [生成iOS安装包　](../../manual/code-ide/function-guides/compiling/package-ios-publish/zh.md)
+
+## ARM DS-5
+
+- [DS-5 助力安卓游戏开发](../../manual/code-ide/ds-5/zh.md)
+- [用 DS-5 调试 C++ 代码](../../manual/code-ide/ds-5/debug-with-ds-5/zh.md)
 
 ## 功能指导
 

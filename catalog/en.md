@@ -163,6 +163,8 @@
     		- [Panel](../manual/studio/v2/chapter3/containers/panel/en.md)
     		- [ScrollView](../manual/studio/v2/chapter3/containers/scrolledview/en.md)
     		- [PageView](../manual/studio/v2/chapter3/containers/pageview/en.md)
+    	- Custom
+    		- [Armature](../manual/studio/v2/chapter3/custom/armature/en.md)
     - [How to edit animation](../manual/studio/v2/chapter4/how-to-edit-animation/en.md)
     	- [Add Key Frame](../manual/studio/v2/chapter4/add-key-frame/en.md)
     	- [Animation Property](../manual/studio/v2/chapter4/animation-property/en.md)

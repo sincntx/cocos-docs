@@ -30,7 +30,7 @@
 	* [2.6 第六步：输出游戏资源](../chapter2/publish-game/about/zh.md)
 		* [2.6.1 构建发布](../chapter2/publish-game/publish/zh.md)
 * [3 如何使用控件](../chapter3/how-to-use-controls/zh.md)
-	* [3.1 基础控件](../chapter3/basic-controls/about/zh.md)
+	* 3.1 基础控件
 		* [3.1.1 按钮](../chapter3/basic-controls/button/zh.md)
 		* [3.1.2 复选框](../chapter3/basic-controls/checkbox/zh.md)
 		* [3.1.3 精灵](../chapter3/basic-controls/sprite/zh.md)
@@ -45,10 +45,14 @@
 		* [3.1.12 地图](../chapter3/basic-controls/tilemap/zh.md)
 		* [3.1.13 声音](../chapter3/basic-controls/audio/zh.md)
 		* [3.1.14 节点](../chapter3/basic-controls/node/zh.md)
-	* [3.2 容器控件](../chapter3/containers/about/zh.md)
+	* 3.2 容器控件
 		* [3.2.1 基础容器](../chapter3/containers/panel/zh.md)
 		* [3.2.2 滚动容器](../chapter3/containers/scrolledview/zh.md)
-		* [3.2.3 翻页容器](../chapter3/containers/pageview/zh.md)
+		* [3.2.3 列表容器](../chapter3/containers/listview/zh.md)
+		* [3.2.4 翻页容器](../chapter3/containers/pageview/zh.md)
+	* 3.3 自定义控件
+		* [3.3.1 Armature](../chapter3/custom/armature/zh.md)
+		
 * [4 如何编辑动画](../chapter4/how-to-edit-animation/zh.md)
 	* [4.1 添加关键帧](../chapter4/add-key-frame/zh.md)
 	* [4.2 使用动画属性](../chapter4/animation-property/zh.md)

@@ -31,7 +31,7 @@
 	* [2.6 Step 6:Output Assets](../chapter2/publish-game/about/en.md)
 		* [2.6.1 Publish Assets](../chapter2/publish-game/publish/en.md)
 * [3 How to use controls](../chapter3/how-to-use-controls/en.md)
-	* [3.1 Basic Controls](../chapter3/basic-controls/about/en.md)
+	* 3.1 Basic Controls
 		* [3.1.1 Button](../chapter3/basic-controls/button/en.md)
 		* [3.1.2 Checkbox](../chapter3/basic-controls/checkbox/en.md)
 		* [3.1.3 Sprite](../chapter3/basic-controls/sprite/en.md)
@@ -46,10 +46,13 @@
 		* [3.1.12 Tile Map](../chapter3/basic-controls/tilemap/en.md)
 		* [3.1.13 Audio](../chapter3/basic-controls/audio/en.md)
 		* [3.1.14 Node](../chapter3/basic-controls/node/en.md)
-	* [3.2 Containers](../chapter3/containers/about/en.md)
+	* 3.2 Containers
 		* [3.2.1 Panel](../chapter3/containers/panel/en.md)
-		* [3.2.2 ScrollView](../chapter3/containers/scrolledview/en.md)
+		* [3.2.2 ScrollView](../chapter3/containers/scrolledview/en.md)		
+		* [3.2.3 ListView](../chapter3/containers/listview/en.md)
 		* [3.2.4 PageView](../chapter3/containers/pageview/en.md)
+	* 3.3 Custom		
+		* [3.3 Armature](../chapter3/custom/armature/en.md)
 * [4 How to edit animation](../chapter4/how-to-edit-animation/en.md)
 	* [4.1 Add Key Frame](../chapter4/add-key-frame/en.md)
 	* [4.2 Animation Property](../chapter4/animation-property/en.md)

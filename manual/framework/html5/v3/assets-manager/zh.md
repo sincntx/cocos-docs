@@ -100,36 +100,36 @@ if (!manager.getLocalManifest().isLoaded()) {
     cc.log("Fail to update assets, step skipped.");
 }
 else {
-    var listener = new cc.EventListenerAssetsManager(manager, function(event) {
+    var listener = new jsb.EventListenerAssetsManager(manager, function(event) {
         switch (event.getEventCode())
         {
-            case cc.EventAssetsManager.ERROR_NO_LOCAL_MANIFEST:
+            case jsb.EventAssetsManager.ERROR_NO_LOCAL_MANIFEST:
                 cc.log("No local manifest file found, skip assets update.");
                 break;
-            case cc.EventAssetsManager.UPDATE_PROGRESSION:
+            case jsb.EventAssetsManager.UPDATE_PROGRESSION:
                 var percent = event.getPercent();
                 var filePercent = event.getPercentByFile();
                 cc.log("Download percent : " + percent + " | File percent : " + filePercent);
                 break;
-            case cc.EventAssetsManager.ERROR_DOWNLOAD_MANIFEST:
-            case cc.EventAssetsManager.ERROR_PARSE_MANIFEST:
+            case jsb.EventAssetsManager.ERROR_DOWNLOAD_MANIFEST:
+            case jsb.EventAssetsManager.ERROR_PARSE_MANIFEST:
                 cc.log("Fail to download manifest file, update skipped.");
                 break;
-            case cc.EventAssetsManager.ALREADY_UP_TO_DATE:
-            case cc.EventAssetsManager.UPDATE_FINISHED:
+            case jsb.EventAssetsManager.ALREADY_UP_TO_DATE:
+            case jsb.EventAssetsManager.UPDATE_FINISHED:
                 cc.log("Update finished.");
                 // 由于增加了manager的引用计数，你需要在合适的时候将它释放掉，并确保这个对象不再被使用到
                 manager.release();
                 break;
-            case cc.EventAssetsManager.UPDATE_FAILED:
+            case jsb.EventAssetsManager.UPDATE_FAILED:
                 cc.log("Update failed. " + event.getMessage());
                 // 直接重新下载失败的资源，建议你对重试次数计数，超过一定次数放弃
                 manager.downloadFailedAssets();
                 break;
-            case cc.EventAssetsManager.ERROR_UPDATING:
+            case jsb.EventAssetsManager.ERROR_UPDATING:
                 cc.log("Asset update error: " + event.getAssetId() + ", " + event.getMessage());
                 break;
-            case cc.EventAssetsManager.ERROR_DECOMPRESS:
+            case jsb.EventAssetsManager.ERROR_DECOMPRESS:
                 cc.log(event.getMessage());
                 break;
             default:

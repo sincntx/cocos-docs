@@ -49,7 +49,10 @@
 	* [容器控件](../../manual/studio/v2/chapter3/containers/about/zh.md)
 		* [基础容器](../../manual/studio/v2/chapter3/containers/panel/zh.md)
 		* [滚动容器](../../manual/studio/v2/chapter3/containers/scrolledview/zh.md)
+		* [列表容器](../../manual/studio/v2/chapter3/containers/listview/zh.md)
 		* [翻页容器](../../manual/studio/v2/chapter3/containers/pageview/zh.md)
+	+ 自定义控件
+		* [Armature](../../manual/studio/v2/chapter3/custom/armature/zh.md)
 * [如何编辑动画](../../manual/studio/v2/chapter4/how-to-edit-animation/zh.md)
 	* [添加关键帧](../../manual/studio/v2/chapter4/add-key-frame/zh.md)
 	* [使用动画属性](../../manual/studio/v2/chapter4/animation-property/zh.md)

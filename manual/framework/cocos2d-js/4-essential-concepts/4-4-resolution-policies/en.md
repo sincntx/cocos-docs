@@ -25,7 +25,7 @@ Let's go on to see how simple it is to use the resolution policy.
 To let Cocos2d-JS adapt your game automatically to the browser, you just need to add this line of code in or after the `cc.game.onStart` callback (main.js):
 
 ```
-cc.view.setDesignResolutionSize(320, 480, cc.RESOLUTION_POLICY.SHOW_ALL);
+cc.view.setDesignResolutionSize(320, 480, cc.ResolutionPolicy.SHOW_ALL);
 ```
 
 The first and second parameters are the resolution you want to use for your game, and the third parameter is the resolution policy you want to use. There are 5 predefined policies, each has it's own behaviour. These will be discussed later in this chapter.
@@ -33,7 +33,7 @@ The first and second parameters are the resolution you want to use for your game
 If you have already set your resolution policy, you can simply change your resolution policy by using this function:
 
 ```
-cc.view.setResolutionPolicy(cc.RESOLUTION_POLICY.NO_BORDER);
+cc.view.setResolutionPolicy(cc.ResolutionPolicy.NO_BORDER);
 ```
 
 Where the web engine differs from the native engine is that you may want to show other content browser along with the canvas. You may want to apply a style to your canvas or don't want it to take up all the space on screen. So our resolution policy will adapt to the canvas's outer container by default. If you want to adapt to the browser window, you need to put your game canvas directly in the page's body:

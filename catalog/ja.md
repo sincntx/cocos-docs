@@ -7,25 +7,24 @@
 - Cocos2d-x 
 	- はじめに	 
 		- [Androidにおけるcpp-testsの起動方法](../manual/framework/native/v3/getting-started/how-to-run-cpp-tests-on-android/ja.md)
-		- Mac OS Xにおけるcpp-testsの起動方法
+		- [Mac OS Xにおけるcpp-testsの起動方法](../manual/framework/native/v3/getting-started/how-to-run-cpp-tests-on-mac-osx/ja.md)
 		- [iOSにおけるcpp-testsの起動方法](../manual/framework/native/v3/getting-started/how-to-run-cpp-tests-on-ios/ja.md)
 		- Linuxにおけるcpp-testsの起動方法
 		- [Win32におけるcpp-testsの起動方法](../manual/framework/native/v3/getting-started/how-to-run-cpp-tests-on-win32/ja.md)
 		- Windows Phone 8におけるcpp-testsの起動方法
-		- 新しいゲームのスタート方法
+		- [新しいゲームのスタート方法](../manual/framework/native/v3/getting-started/how-to-start-a-new-game/ja.md)
 		- [Eclipse上におけるAndroidプロジェクトのビルド・実行方法](../manual/framework/native/v3/getting-started/how-to-build-android-project-with-eclipse/ja.md)
 	- グラフィックとアニメーション
 		- Cocos2dの座標系
 		- スプライト、レイヤー、シーン(Sprite, Layer and Scene)
-		- パーティクルシステム(Particle System)
-			- v2.xとv3.xのパーティクルシステムの比較
+		- [パーティクルシステム(Particle System)](../manual/framework/native/v3/particle/ja.md)
 		- 画面遷移(Transitions)
 		- Flipbook Animation
 		- スケルタルアニメーション(Skeletal Animation)
 		- タイルマップ(Tile Map)
 		- アクション(Actions)
 		- エフェクト(Effects)
-		- レンダー(Renderer)
+		- [レンダー(Renderer)](../manual/framework/native/v3/new-renderer/ja.md)
 		- 複数の解像度で動かすためのメカニズム
 	- オーディオ(Audio)
 	- GUI
@@ -33,12 +32,12 @@
         - UI Containers
         - UI Widgets
         - UI Layouts
-		- Label
+		- [Label](../manual/framework/native/v3/label/ja.md)
 	- データ構造
 		- v3.0: 
 			- Vector\<T\>
-			- Map\<K,V\>
-			- Value
+			- [Map\<K,V\>](../manual/framework/native/v3/data-structure/map/ja.md)
+			- [Value](../manual/framework/native/v3/data-structure/value/ja.md)
 		- v2.x: CCArray, CCDictionary and CCString
 	- 物理特性(Physics)
 	- ネットワーク(Network)
@@ -58,26 +57,129 @@
 		- CCLog
 		- CCConsole
 	- ファイルの入出力(File Stream)
-	- Intergrating with 3rd SDK
-	- Cocos2d-html5
-		- ゲーム開発のためのCocos2d-html5について
-		- 解像度の方針設計(Cocos2d-html5 2.2.2)
-- CocoStudio
-	- チュートリアル
-		- CocoStudioを使ったゲームのビルド
-			- [CocoStudioとは](../tutorial/studio/parkour-game-with-cocostudio/chapter1/ja.md)
-			- [はじめに](../tutorial/studio/parkour-game-with-cocostudio/chapter2/ja.md)
-			- [パルクール(障害物競走)ゲームをビルドしてみよう](../tutorial/studio/parkour-game-with-cocostudio/chapter3/ja.md)
-			- [さらに学ぶために](../tutorial/studio/parkour-game-with-cocostudio/chapter4/ja.md)
-		- Javascriptを使ったパルクール(障害物競走)ゲーム
-			- 開発環境の構築
-			- Cocos2d-html5でHello World
-			- 最初のゲームシーンを作ろう
-			- ゲームシーンの設計と作成
-			- プレイヤーの走るアニメーション
-			- 物理エンジン(Chipmunk)の追加
-			- タイルマップとカメラの利用
-			- コインと障害物の追加
-			- ゲームオーバのロジックなど
-			- BGMと効果音の追加
-		
+	- 3rd SDKの統合
+		- Windows Phone 8にAlipayを統合するためのブラウザ利用
+		- Windows Phone 8における3rd SDKの統合
+	- Cocos2d-JS
+        - Cocos2d-JS v3.0のリリースノート
+        - Cocos2d-JS v3.0の更新履歴
+        - Cocos2d-JS v3.0へのアップグレードガイド
+        
+		- はじめに
+            - Cocos2d-JSについて
+			- ゲーム開発にCocos2d-JSを利用する理由
+			- Cocos2d-JSの解像度の方針
+            - リリースノートの履歴
+            
+        - Cocos2d-JS v3.0の新機能とAPIの変更:
+            - cocosコンソールツール
+            - アセット管理
+            - 新しいイベント管理
+            - 新しいプロパティ
+            - cc.gameによるゲームの生成
+            - オブジェクト生成とクラスの継承
+            - アクション関数のデザイン
+            - オブジェクトのプール
+            - cc.layerのbake関数
+            - JavaScriptへのJAVA呼び方
+            - JavaScriptからObjective-Cへの呼び方
+            - 設定モジュール
+            - 設定ファイル
+            - 基本データ
+            - シングルトン
+            - 統合されたcreate関数
+            - cc.loaderによるリソース読込
+            - cc.sysによるシステム情報
+            - cc.pathによるPath管理
+            - cc.asyncによる非同期処理
+            - cc.saxParserの修正点
+            - cc.spriteFrameCacheの修正点
+            - cc.FileUtilsについて
+            - cc.logについて
+            - v2.2.2からv3.0へのその他の変更点
+        
+        - Cocos2d-JS向けFacebook SDK Beta
+            - Facebook SDK BetaのAPIリファレンス
+            - Cocos2d-JS(Android)のためのFacebook SDK Betaの利用方法
+            - Cocos2d-JS(iOS)のためのFacebook SDK Betaの利用方法
+            - Cocos2d-JS(Web)のためのFacebook SDK Betaの利用方法
+    
+        - より高度なトピック
+            - JSBにおける拡張利用
+            - AndroidでPlugin-xの利用方法
+            - Plugin-xアーキテクチャ
+            - Androidのプラグインの書き方
+            - iOSのIAPプラグインの利用
+
+- Studio
+    - Cocos Studioの紹介
+    	- UIの概要
+    		- ツールバー
+    		- コントロールパネル
+    		- アセットパネル
+    		- キャンバス
+    		- アニメーションパネル
+    		- プロパティパネル
+    	- アセットのワークフロー
+    	- サンプルとチュートリアル
+    	- 設定
+    - ゲームの作成
+    	- Step 1:新しいゲームプロジェクト
+    	- Step 2:ゲームアセットの追加
+    		- 新規ファイル
+    		- 解像度の調整
+    		- シーンの再利用
+    		- アセットの取り込み
+    		- スプライトシート
+    	- Step 3:コントロールの利用
+    		- シーングラフ
+    		- キャンバスの利用
+    		- 位置とレイアウト
+    	- Step 4:プロパティ
+    		- プロパティの編集
+    		- アセットの編集
+    		- 9スライスの利用方法
+    	- Step 5:プロジェクトのデバッグ
+    	- Step 6:アセットの出力
+    		- アセットの出力
+    - コントロールの利用方法
+    	- 基本コントロール
+    		- ボタン
+    		- チェックボックス
+    		- スプライト
+    		- イメージ
+    		- アトラスラベル
+    		- FNTフォント
+    		- プログレスバー
+    		- スライダー
+    		- ラベル
+    		- テキストフィールド
+    		- パーティクル
+    		- タイルマップ
+    		- オーディオ
+    		- ノード
+    	- コンテナー
+    		- パネル
+    		- スクロールビュー
+    		- ページビュー
+    - アニメーションの編集方法
+    	- キーフレームの追加
+    	- プロパティ
+    	- オニオンスキンの利用
+- チュートリアル
+	- Cocos2d-xJS v3.0によるパルクールゲーム
+		- 1. 開発環境の構築
+		- 2. Cocos2d-JSによるHello World
+		- 3. 最初のゲームシーンの作成
+		- 4. メインゲームシーンのデザインと作成
+		- 5. プレイヤーの走るアニメーション
+		- 6. ゲームに物理エンジン(Chipmunk)を追加
+		- 7. TiledMapの利用
+		- 8. コインと障害物を追加
+		- 9. ゲームオーバー処理の追加
+        - 10. BGM・効果音の追加
+- Cocos Code IDE
+    - カスタムランタイム
+        - カスタムクラスをLuaランタイムにバインドする
+        - [カスタムクラスをJSランタイムにバインドする](../manual/code-ide/function-guides/add-3rd-party-lib/binding-custom-class-to-js/ja.md)
+        

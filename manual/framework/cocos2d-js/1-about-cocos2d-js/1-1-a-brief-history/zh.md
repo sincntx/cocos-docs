@@ -1,6 +1,6 @@
 # 1.1 Cocos2d-JS介绍
 
-<img src="http://www.cocos2d-x.org/attachments/download/1508" height=180> 
+<img src="http://files.cocos2d-x.org/images/orgsite/logo.png" height=180> 
 
 [Cocos2d-JS](https://github.com/cocos2d/cocos2d-js) 是跨全平台的游戏引擎，采用原生JavaScript语言，可发布到包括Web平台，iOS，Android，Windows Phone8，Mac，Windows等平台，引擎基于MIT开源协议，完全开源，免费，易学易用，拥有活跃的社区支持。Cocos2d-JS让2D的游戏编程门槛更您低，使用更加容易和高效。和其他类似游戏框架相比，它定义了更加清晰的2D游戏编程的基本组件，采用易学易用的API设计，并采用全球领先、具备原生性能的脚本绑定解决方案实现游戏的跨原生平台发布，开发效率更高，使用上最简单。
 

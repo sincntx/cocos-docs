@@ -244,7 +244,7 @@ d表示需要延时的时间。
 ```
 	auto repeat = RepeatForever::create(animation);
 	auto speed = Speed::create(repeat, 0.5f);
-	sprite->run(speed);
+	sprite->runAction(speed);
 ```
 
 第二个参数为变速比例，设置为0.5f则速度为原来一半。

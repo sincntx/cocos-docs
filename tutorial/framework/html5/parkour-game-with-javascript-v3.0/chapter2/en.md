@@ -210,7 +210,7 @@ frameRate | a positive number above 24, usually between 30 and 60  | adjust the 
 renderMode | 0, 1, 2 | Choose of RenderMode: 0(default), 1(Canvas only), 2(WebGL only)
 engineDir | the engine directory related for your project  | specify the directory the engine code  
 modules | engine modules  | you could customize your engine using modules. Module names are in moduleConfig.json which is located in root of the **frameorks/Cocos2d-html5** directory
- jsList | a list of your game source code  | add your own file lists after myApp.js
+ jsList | a list of your game source code  | add your own file lists after app.js
  
  
 

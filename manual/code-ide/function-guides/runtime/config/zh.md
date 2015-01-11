@@ -6,22 +6,22 @@ config.json文件用于工程配置初始化，在程序运行之前配置好。
 config.json文件结构
 ===
 ---
-以下是config.json的文件实例:
+以下是 cocos2d-x lua 工程的 config.json的文件实例:
 
 	{
 	
     "init_cfg":{
        "isLandscape": true,
        "isWindowTop": false,
-       "name": "HelloLua",
+       "name": "CocosLuaGame",
        "width": 960,
        "height": 640,
        "entry": "src/main.lua",
 	   "consolePort": 6010,
-       "debugPort": 5086,
-       "forwardConsolePort": 10088,
-       "forwardUploadPort": 10090,
-       "forwardDebugPort": 10086
+	   "uploadPort": 6020,
+       "debugPort": 10000,
+       "forwardConsolePort": 10089,
+       "forwardUploadPort": 10091
     },
     "simulator_screen_size": [
         {
@@ -80,14 +80,25 @@ config.json文件结构
 
 console端口
 
-**注:这个参数只在桌面系统下生效**
+####"uploadPort"####
+正整形
+
+接收IDE上传文件的端口
 
 ####"debugPort"####
 正整型
 
 调试端口
 
-**注:这个参数只在桌面系统下生效**
+####"forwardConsolePort""####
+正整形
+
+Android ADB 模式调试时，将这个端口映射到 Android 设备的 consolePort 上
+
+####"forwardUploadPort""####
+正整形
+
+Android ADB 模式调试时，将这个端口映射到 Android 设备的 uploadPort 上
 
 ###注:所有的端口配置都只在桌面平台下生效###
 

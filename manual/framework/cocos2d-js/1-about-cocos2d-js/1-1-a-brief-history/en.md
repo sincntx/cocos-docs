@@ -1,6 +1,6 @@
 # 1.1 A brief history
 
-<img src="http://www.cocos2d-x.org/attachments/download/1508" height=180> 
+<img src="http://files.cocos2d-x.org/images/orgsite/logo.png" height=180> 
 
 [Cocos2d-JS](https://github.com/cocos2d/cocos2d-js) is an open source game engine for web games and native games. It has a high performance, is user-friendly and supports multi-platform development. Supported platforms include web, Android, iOS, Windows Phone 8, Mac, Windows, etc. Cocos2d-JS makes 2D game programming easier and faster. It clarifies the key components of 2D game programming by being easy to learn and having an easy to use API. All of this combined makes it an outstanding framework compared to others.
 
@@ -35,10 +35,13 @@ Cocos2d-JS supports running game code as native application via Cocos2d-x JSB wi
 Cocos2d-x JSB for C/C++ is the wrapper code that sits between the native code and the JavaScript code. JSB enables calls to the native code using JavaScript and vice-versa.
 
 JavaScript code is interpreted by SpiderMonkey, Mozilla’s JavaScript virtual machine (VM). The JavaScript VM is extended by JSB to support Cocos2d-x types, structures, and objects.
-SpiderMonkey is Mozilla's open source JavaScript engine written in C/C++, and it can be linked into any C++ program, not just web browsers.
-C++ code accesses SpiderMonkey via the JSAPI. The JSAPI provides functions for setting up the JavaScript runtime, compiling and executing scripts, creating and examining JavaScript data structures, handling errors, enabling security checks, and debugging scripts. This technology is used for rapid game development and game prototyping.
 
-
+SpiderMonkey is Mozilla's open source JavaScript engine written in C/C++, and it can be linked into any C++ program, not just web browsers.
+
+
+C++ code accesses SpiderMonkey via the JSAPI. The JSAPI provides functions for setting up the JavaScript runtime, compiling and executing scripts, creating and examining JavaScript data structures, handling errors, enabling security checks, and debugging scripts. This technology is used for rapid game development and game prototyping.
+
+
 ### 1.1.3 Position in Cocos2d family
 
 Compared to other products in the Cocos2d branch, Cocos2d-JS is focusses on full cross-platform support by allowing the development of web games and native games.

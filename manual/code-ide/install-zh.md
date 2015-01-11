@@ -9,26 +9,40 @@ Cocos Code IDE安装指南
 ----------
 Cocos Code IDE 只支持 Cocos2d-x 3.x/Cocos2d-js 3.x 引擎。
 
+对于 Windows 用户，需要首先确认一下你正在使用的 java 版本，可以通过在 cmd 窗口中输入命令 `java -version` 来确定，输出类似：
+	
+```
+	java version "1.6.0_65" 
+	Java(TM) SE Runtime Environment (build 1.6.0_65-b14-462-11M4609) 
+	Java HotSpot(TM) 64-Bit Server VM (build 20.65-b04-462, mixed mode) 
+```
+	
+这样你就可以确定你要下载的是 64 位还是 32 位的 IDE版本， 如果没有安装 java， 需要首先安装[JDK][JDK link]。
+
+Mac 系统只提供了 64 位版本，不存在版本选择问题。
+
 ----
 
 **Cocos2d-x 引擎和 Cocos Code IDE 版本兼容表：**
 
-| IDE版本\Cocos2d-x 版本 | 3.2 Final | 3.3 rc0 |
-| -------------------- |:----------:| :------:|
-| 1.0.2 			    | √ 		 | √       |
-| 1.0.1 			    | √ 		 | √       |
-| 1.0.0-Final 			| √ 		 | √       |
-| 1.0.0-RC2   			| √ 		 | x       |
+| IDE版本\Cocos2d-x 版本 | 3.2 Final | 3.3 rc0 | 3.3 rc1 | 3.3 final |
+| -------------------- |:----------:| :------:| :-----: |:---------:|
+| 1.1.0 			    | √ 		 | √       | √       | √         |
+| 1.0.2 			    | √ 		 | √       | √       | x         |
+| 1.0.1 			    | √ 		 | √       | x       | x         |
+| 1.0.0-Final 			| √ 		 | √       | x       | x         |
+| 1.0.0-RC2   			| √ 		 | x       | x       | x         |
 
 ---
 **Cocos2d-js 引擎和 Cocos Code IDE 版本兼容表：**
 
-| IDE版本\Cocos2d-js 版本 | 3.0 Final | 3.1 Final |
-| -------------------- |:----------:| :------:|
-| 1.0.2 			    | √ 		 | √       |
-| 1.0.1 			    | √ 		 | √       |
-| 1.0.0-Final 			| √ 		 | √       |
-| 1.0.0-RC2   			| √ 		 | x       |
+| IDE版本\Cocos2d-js 版本 | 3.0 Final | 3.1 Final | 3.2 rc0 |
+| -------------------- |:-----------:| :--------:| :-----: |
+| 1.1.0 			    | √ 		  | √         | √       |
+| 1.0.2 			    | √ 		  | √         | x       |
+| 1.0.1 			    | √ 		  | √         | x       |
+| 1.0.0-Final 			| √ 		  | √         | x       |
+| 1.0.0-RC2   			| √ 		  | x         | x       |
 
 请参考上表选择 Cocos Code IDE 和 Cocos2d-x/Cocos2d-js，并统一到 [Cocos 下载页][cocos download page] 下载。
 
@@ -76,6 +90,7 @@ PS：更新后重启 IDE，如果发现 IDE 工作不正常可以再重启一次
 * 如果你是Lua开发者，请[点击这里](getting-started-for-lua/1-creating-a-cocos-game/zh.md)。
 * 如果你是JavaScript开发者，请[点击这里](getting-started-for-js/1-creating-a-cocos-game/zh.md)。
 
+[JDK link]: http://www.oracle.com/technetwork/java/javase/downloads/index.html 
 [Android SDK link]: https://developer.android.com/sdk/index.html?hl=sk
 [NDK link]: https://developer.android.com/tools/sdk/ndk/
 [ANT link]: http://ant.apache.org/

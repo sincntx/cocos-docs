@@ -1,6 +1,6 @@
 # 1.1 짧은 역사
 
-<img src="http://www.cocos2d-x.org/attachments/download/1508" height=180> 
+<img src="http://files.cocos2d-x.org/images/orgsite/logo.png" height=180> 
 
 [Cocos2d-JS](https://github.com/cocos2d/cocos2d-js)는 웹게임과 네이티브 게임을 위한 오픈 소스 게임 엔진으로 높은 성능과 유저 친화적이며 웹, 안드로이드, iOS, WP8, Mac, Windows 등 멀티플랫폼 지원을 제공합니다. Cocos2d-JS를 통해 2D 게임 프로그래밍을 쉽고 빠르게 할 수 있습니다. 쉽게 배우고 사용하기 쉬운 API 등 2D 게임 프로그래밍의 키 컴포넌트를 분명하게 하여 다른 프레임워크에 비해서 두드러진 프레임워크로 만들어줍니다.
 

@@ -21,7 +21,7 @@ Cocos2d-JS中的屏幕适配模式在Web引擎中和原生引擎中的差异比�
 如果你还没有用过Resolution Policy，只需要在游戏载入过程完成之后（cc.game.onStart函数回调中），调用下面的代码：
 
 ```
-cc.view.setDesignResolutionSize(320, 480, cc.RESOLUTION_POLICY.SHOW_ALL);
+cc.view.setDesignResolutionSize(320, 480, cc.ResolutionPolicy.SHOW_ALL);
 ```
 
 `setDesignResolutionSize`函数的前两个参数是你想要在你的代码中使用的游戏分辨率，第三个参数就是你选择的适配方案。引擎中内置了5种适配方案，每种都有自己独特的行为，详见下文。
@@ -29,7 +29,7 @@ cc.view.setDesignResolutionSize(320, 480, cc.RESOLUTION_POLICY.SHOW_ALL);
 如果你已经设置了设计分辨率，那么你可以直接设置你的Resolution Policy：
 
 ```
-cc.view.setResolutionPolicy(cc.RESOLUTION_POLICY.NO_BORDER);
+cc.view.setResolutionPolicy(cc.ResolutionPolicy.NO_BORDER);
 ```
 
 原生游戏中游戏总是使用全部屏幕空间，但是在WEB端你的网页中也许除了游戏还有别的视觉或文字元素，或者也许你需要给你的游戏设计一个漂亮的边框。所以Cocos2d-JS中Web引擎的适配方案会默认适配游戏Canvas元素的父节点，如果你希望游戏场景适配浏览器屏幕，那么只需要将Canvas直接放置到body下就可以了：

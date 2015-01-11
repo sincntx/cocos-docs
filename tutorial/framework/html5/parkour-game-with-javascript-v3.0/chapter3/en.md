@@ -139,9 +139,9 @@ The **cc.game** is actual game object which will initialize game configuration a
 
 Before we can create our own scene, we need to clean some stuff up.
 
-##### Cleanup the myApp.js
+##### Cleanup the app.js
 
-This process is very simple. First, we should delete all the contents of myApp.js, because we will rewrite it from scratch.
+This process is very simple. First, we should delete all the contents of app.js, because we will rewrite it from scratch.
 
 Secondly, we should change this line in main.js:
 

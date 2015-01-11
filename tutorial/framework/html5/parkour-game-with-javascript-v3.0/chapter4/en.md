@@ -71,7 +71,7 @@ Since we will add four JavaScript files: PlayScene.js, AnimationLayer.js, Backgr
         "src/resource.js",
         "src/app.js",
         "src/AnimationLayer.js",
-        "src/BackgroundLayer",
+        "src/BackgroundLayer.js",
         "src/PlayScene.js",
         "src/StatusLayer.js"
     ]
